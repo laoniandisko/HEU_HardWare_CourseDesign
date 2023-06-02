@@ -1,0 +1,22 @@
+# do Timing.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:46:22 on Oct 24,2022
+# vlog -work work Timing.vo 
+# -- Compiling module Timing
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	Timing
+# End time: 15:46:22 on Oct 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:46:22 on Oct 24,2022
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module Timing_vlg_vec_tst
+# 
+# Top level modules:
+# 	Timing_vlg_vec_tst
+# End time: 15:46:22 on Oct 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# after#1

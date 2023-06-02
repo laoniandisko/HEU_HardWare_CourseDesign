@@ -1,0 +1,150 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/21/2022 19:07:04"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          SHEFT
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module SHEFT_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg c0;
+reg clk;
+reg [7:0] d;
+reg m;
+reg [1:0] s;
+// wires                                               
+wire cn;
+wire [7:0] q;
+
+// assign statements (if any)                          
+SHEFT i1 (
+// port map - connection between master ports and signals/registers   
+	.c0(c0),
+	.clk(clk),
+	.cn(cn),
+	.d(d),
+	.m(m),
+	.q(q),
+	.s(s)
+);
+initial 
+begin 
+#50000000 $finish;
+end 
+
+// clk
+initial
+begin
+	repeat(208)
+	begin
+		clk = 1'b0;
+		clk = #120000 1'b1;
+		# 120000;
+	end
+	clk = 1'b0;
+end 
+// d[ 7 ]
+initial
+begin
+	d[7] = 1'b0;
+end 
+// d[ 6 ]
+initial
+begin
+	d[6] = 1'b1;
+	d[6] = #360000 1'b0;
+end 
+// d[ 5 ]
+initial
+begin
+	d[5] = 1'b1;
+	d[5] = #360000 1'b0;
+end 
+// d[ 4 ]
+initial
+begin
+	d[4] = 1'b0;
+end 
+// d[ 3 ]
+initial
+begin
+	d[3] = 1'b0;
+end 
+// d[ 2 ]
+initial
+begin
+	d[2] = 1'b1;
+	d[2] = #360000 1'b0;
+end 
+// d[ 1 ]
+initial
+begin
+	d[1] = 1'b1;
+	d[1] = #360000 1'b0;
+end 
+// d[ 0 ]
+initial
+begin
+	d[0] = 1'b0;
+end 
+// s[ 1 ]
+initial
+begin
+	s[1] = 1'b1;
+	s[1] = #200000 1'b0;
+	s[1] = #840000 1'b1;
+	s[1] = #400000 1'b0;
+	s[1] = #680000 1'b1;
+	s[1] = #960000 1'b0;
+end 
+// s[ 0 ]
+initial
+begin
+	s[0] = 1'b1;
+	s[0] = #200000 1'b0;
+	s[0] = #280000 1'b1;
+	s[0] = #560000 1'b0;
+	s[0] = #400000 1'b1;
+	s[0] = #680000 1'b0;
+end 
+
+// m
+initial
+begin
+	m = 1'b1;
+	m = #200000 1'b0;
+	m = #1240000 1'b1;
+	m = #1640000 1'b0;
+end 
+
+// c0
+initial
+begin
+	c0 = 1'b0;
+	c0 = #2480000 1'b1;
+	c0 = #600000 1'b0;
+end 
+endmodule
+

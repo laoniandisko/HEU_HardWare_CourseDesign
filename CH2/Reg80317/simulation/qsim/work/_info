@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/HardWare/CH2/Reg80317/simulation/qsim
+vhard_block
+Z1 !s110 1670209786
+!i10b 1
+!s100 0IYiha6G>2gKWIPS[SEzN0
+IQnh5UJ_kP_iNF3`j@9ahZ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1670209784
+Z4 8Reg80317.vo
+Z5 FReg80317.vo
+L0 534
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1670209786.000000
+Z8 !s107 Reg80317.vo|
+Z9 !s90 -work|work|Reg80317.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vReg80317
+R1
+!i10b 1
+!s100 79aEiI0S=>X6A3F1HeK2_0
+IiRMnD]IdLJdXX1[;E@TWn1
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@reg80317
+vReg80317_vlg_vec_tst
+R1
+!i10b 1
+!s100 H16dlK4jmS`JRGIzlAodG1
+I3X8>mMa9Hdz5=iOKgWPl>3
+R2
+R0
+w1670209783
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@reg80317_vlg_vec_tst

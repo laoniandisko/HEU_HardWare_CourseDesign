@@ -1,0 +1,111 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 dE:\homework\forth\uControl\simulation\qsim
+vhard_block
+Z1 !s110 1670249698
+!i10b 1
+!s100 _Ez4gFOhza<S3fSPG0@?<3
+I3oKc>eo;3J6Fcj8^i@A>61
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/HardWare/CH6/uControl/simulation/qsim
+Z4 w1670249695
+Z5 8uControl1119.vo
+Z6 FuControl1119.vo
+L0 2440
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1670249698.000000
+Z9 !s107 uControl1119.vo|
+Z10 !s90 -work|work|uControl1119.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vuControl1119
+R1
+!i10b 1
+!s100 Mhc>WYMEhFXJob6UD7YBa3
+I@k^]TJWX_LCdINoIm>]jZ1
+R2
+R3
+R4
+R5
+R6
+L0 31
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nu@control1119
+vuControl1119_vlg_check_tst
+!i10b 1
+!s100 QZRZ?Y:X=dRGhOc2SGY[Z2
+IRU;gb7W;aEo8EQA;`N4>_1
+VHm?1kU3KVbmS[L[IVN24d3
+R0
+Z13 w1638090942
+Z14 8WaveformuControl1119.vwf.vt
+Z15 FWaveformuControl1119.vwf.vt
+L0 73
+Z16 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z17 !s108 1638090947.098000
+Z18 !s107 WaveformuControl1119.vwf.vt|
+Z19 !s90 -work|work|WaveformuControl1119.vwf.vt|
+!s101 -O0
+Z20 o-work work -O0
+nu@control1119_vlg_check_tst
+vuControl1119_vlg_sample_tst
+!i10b 1
+!s100 ]LM7HdUdGSJYR`laaof1a2
+I@RNNZ_CTdDZ_D>I4Oa4bj2
+VBPmhgGPMQKFZ?1KmePeoc2
+R0
+R13
+R14
+R15
+Z21 L0 29
+R16
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R20
+nu@control1119_vlg_sample_tst
+vuControl1119_vlg_vec_tst
+R1
+!i10b 1
+!s100 ]Rk;=C:Ng8?<bd;lFB<aa2
+I28C_>?z013ZFj`8L60cnN3
+R2
+R3
+w1670249694
+R14
+R15
+R21
+R7
+r1
+!s85 0
+31
+R8
+R18
+R19
+!i113 1
+R11
+R12
+nu@control1119_vlg_vec_tst

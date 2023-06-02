@@ -1,0 +1,125 @@
+Determining the location of the ModelSim executable...
+
+Using: e:/intelfpga_lite/17.1/modelsim_ase/win32aloem/
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Timing -c Timing --vector_source="E:/intelFPGA_lite/17.1/Timing/Waveform1.vwf" --testbench_file="E:/intelFPGA_lite/17.1/Timing/simulation/qsim/Waveform1.vwf.vt"
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Mon Oct 24 15:46:20 2022
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Timing -c Timing --vector_source=E:/intelFPGA_lite/17.1/Timing/Waveform1.vwf --testbench_file=E:/intelFPGA_lite/17.1/Timing/simulation/qsim/Waveform1.vwf.vt
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="E:/intelFPGA_lite/17.1/Timing/simulation/qsim/" Timing -c Timing
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details.
+    Info: Processing started: Mon Oct 24 15:46:21 2022
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=E:/intelFPGA_lite/17.1/Timing/simulation/qsim/ Timing -c Timing
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file Timing.vo in folder "E:/intelFPGA_lite/17.1/Timing/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4624 megabytes
+    Info: Processing ended: Mon Oct 24 15:46:21 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+E:/intelFPGA_lite/17.1/Timing/simulation/qsim/Timing.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+e:/intelfpga_lite/17.1/modelsim_ase/win32aloem//vsim -c -do Timing.do
+
+Reading E:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do Timing.do
+
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:46:22 on Oct 24,2022
+# vlog -work work Timing.vo 
+# -- Compiling module Timing
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	Timing
+# End time: 15:46:22 on Oct 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:46:22 on Oct 24,2022
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module Timing_vlg_vec_tst
+# 
+# Top level modules:
+# 	Timing_vlg_vec_tst
+# End time: 15:46:22 on Oct 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# after#1
+Error: can't read "FileWatch(fileName)": no such element in array
+
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading E:/intelFPGA_lite/17.1/Timing/Waveform1.vwf...
+
+Reading E:/intelFPGA_lite/17.1/Timing/simulation/qsim/Timing.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to E:/intelFPGA_lite/17.1/Timing/simulation/qsim/Timing_20221024154623.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

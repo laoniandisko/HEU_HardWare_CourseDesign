@@ -1,0 +1,187 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/intelFPGA_lite/17.1/RAM/simulation/qsim
+Ehard_block
+Z1 w1670217530
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+Z8 dD:/HardWare/CH3/RAM/simulation/qsim
+Z9 8RAM.vho
+Z10 FRAM.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1670217531
+!i10b 1
+Z13 !s108 1670217530.000000
+Z14 !s90 -work|work|RAM.vho|
+Z15 !s107 RAM.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+vRAM
+Z18 !s110 1666364677
+!i10b 1
+!s100 3GN8VC5Q_kam<:l2[TIFO3
+IK@O3l4ha1Q1mGiZBDZYP[2
+Z19 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1666364676
+8RAM.vo
+FRAM.vo
+L0 31
+Z20 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z21 !s108 1666364677.000000
+!s107 RAM.vo|
+!s90 -work|work|RAM.vo|
+!i113 1
+R16
+Z22 tCvgOpt 0
+n@r@a@m
+Eram
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L77
+VCLFl05iea6Nz?^TjOgoU^2
+!s100 U4h_mcVOzC1NGUz`;?JnO1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 3 ram 0 22 CLFl05iea6Nz?^TjOgoU^2
+l171
+L116
+VeDPnYdgJaDbY4]mE9Jbb71
+!s100 1X?VZAa8QEQgmGlm1=J3U3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eram_vhd_vec_tst
+Z23 w1670217528
+R5
+R6
+R8
+Z24 8Waveform.vwf.vht
+Z25 FWaveform.vwf.vht
+l0
+L31
+VddkGO=jh0_616@^<jckok3
+!s100 1k?c4jEWL=IRh7[SdL6ZA2
+R11
+32
+R12
+!i10b 1
+Z26 !s108 1670217531.000000
+Z27 !s90 -work|work|Waveform.vwf.vht|
+Z28 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Aram_arch
+R5
+R6
+Z29 DEx4 work 15 ram_vhd_vec_tst 0 22 ddkGO=jh0_616@^<jckok3
+l50
+L33
+Z30 V95=QD@eI^Jh2P4ezi7YPk1
+Z31 !s100 eMH18mIB5_`GKz:[PJf0?3
+R11
+32
+R12
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R16
+R17
+vRAM_vlg_vec_tst
+R18
+!i10b 1
+!s100 iaAD`mlfHKZmVL;@1V_gD1
+I_k?WQA4ZVa_RzX[GV76RS1
+R19
+R0
+w1666364675
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R20
+r1
+!s85 0
+31
+R21
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R16
+R22
+n@r@a@m_vlg_vec_tst

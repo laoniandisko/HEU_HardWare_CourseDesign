@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Nov 01 11:21:52 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : PC_AR_RAM
+Top-level Entity Name : PC_AR_RAM
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 50 / 6,272 ( < 1 % )
+    Total combinational functions : 50 / 6,272 ( < 1 % )
+    Dedicated logic registers : 16 / 6,272 ( < 1 % )
+Total registers : 16
+Total pins : 31 / 92 ( 34 % )
+Total virtual pins : 0
+Total memory bits : 2,048 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

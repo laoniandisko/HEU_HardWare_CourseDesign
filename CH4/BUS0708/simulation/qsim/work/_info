@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA_lite/project/BUS0708/simulation/qsim
+vBUS0708
+Z0 !s110 1666666730
+!i10b 1
+!s100 9iYA8dkbTK76cX`85d<:I0
+I57^RZM^=;:180Q3hETUJ51
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/YINGJIAN/BUS0708/simulation/qsim
+Z3 w1666666729
+Z4 8BUS0708.vo
+Z5 FBUS0708.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1666666730.000000
+Z8 !s107 BUS0708.vo|
+Z9 !s90 -work|work|BUS0708.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@b@u@s0708
+vBUS0708_vlg_vec_tst
+R0
+!i10b 1
+!s100 Qb5^jb?TTnY9Bl?4SRgSF1
+Ijj6=nX8LDVgUjz;D0Flzj3
+R1
+R2
+w1666666728
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R10
+R11
+n@b@u@s0708_vlg_vec_tst
+vhard_block
+R0
+!i10b 1
+!s100 `WgjWiUB6f4[AU0>V0h_13
+I6[`E:U3QDO7=KI]Pf_knD2
+R1
+R2
+R3
+R4
+R5
+L0 1851
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

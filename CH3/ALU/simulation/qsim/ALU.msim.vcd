@@ -1,0 +1,1310 @@
+$comment
+	File created using the following command:
+		vcd file ALU.msim.vcd -direction
+$end
+$date
+	Mon Nov 21 16:40:08 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module ALU_vlg_vec_tst $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 1 # CN $end
+$var reg 1 $ M $end
+$var reg 4 % S [3:0] $end
+$var wire 1 & AEQB $end
+$var wire 1 ' CN4 $end
+$var wire 1 ( F [7] $end
+$var wire 1 ) F [6] $end
+$var wire 1 * F [5] $end
+$var wire 1 + F [4] $end
+$var wire 1 , F [3] $end
+$var wire 1 - F [2] $end
+$var wire 1 . F [1] $end
+$var wire 1 / F [0] $end
+
+$scope module i1 $end
+$var wire 1 0 gnd $end
+$var wire 1 1 vcc $end
+$var wire 1 2 unknown $end
+$var tri1 1 3 devclrn $end
+$var tri1 1 4 devpor $end
+$var tri1 1 5 devoe $end
+$var wire 1 6 CN4~output_o $end
+$var wire 1 7 AEQB~output_o $end
+$var wire 1 8 F[7]~output_o $end
+$var wire 1 9 F[6]~output_o $end
+$var wire 1 : F[5]~output_o $end
+$var wire 1 ; F[4]~output_o $end
+$var wire 1 < F[3]~output_o $end
+$var wire 1 = F[2]~output_o $end
+$var wire 1 > F[1]~output_o $end
+$var wire 1 ? F[0]~output_o $end
+$var wire 1 @ S[3]~input_o $end
+$var wire 1 A B[7]~input_o $end
+$var wire 1 B A[7]~input_o $end
+$var wire 1 C S[2]~input_o $end
+$var wire 1 D inst|52~0_combout $end
+$var wire 1 E A[6]~input_o $end
+$var wire 1 F B[6]~input_o $end
+$var wire 1 G S[0]~input_o $end
+$var wire 1 H S[1]~input_o $end
+$var wire 1 I inst|45~0_combout $end
+$var wire 1 J inst|51~0_combout $end
+$var wire 1 K inst|78~0_combout $end
+$var wire 1 L B[5]~input_o $end
+$var wire 1 M A[5]~input_o $end
+$var wire 1 N inst|47~0_combout $end
+$var wire 1 O B[4]~input_o $end
+$var wire 1 P A[4]~input_o $end
+$var wire 1 Q inst|46~0_combout $end
+$var wire 1 R inst|44~0_combout $end
+$var wire 1 S inst|43~0_combout $end
+$var wire 1 T inst|78~1_combout $end
+$var wire 1 U A[3]~input_o $end
+$var wire 1 V B[3]~input_o $end
+$var wire 1 W inst1|51~0_combout $end
+$var wire 1 X B[0]~input_o $end
+$var wire 1 Y A[0]~input_o $end
+$var wire 1 Z inst1|46~0_combout $end
+$var wire 1 [ B[1]~input_o $end
+$var wire 1 \ A[1]~input_o $end
+$var wire 1 ] inst1|47~0_combout $end
+$var wire 1 ^ inst1|43~0_combout $end
+$var wire 1 _ CN~input_o $end
+$var wire 1 ` inst1|78~0_combout $end
+$var wire 1 a inst1|44~0_combout $end
+$var wire 1 b inst1|52~0_combout $end
+$var wire 1 c B[2]~input_o $end
+$var wire 1 d A[2]~input_o $end
+$var wire 1 e inst1|48~0_combout $end
+$var wire 1 f inst1|78~1_combout $end
+$var wire 1 g inst1|45~0_combout $end
+$var wire 1 h inst1|78~2_combout $end
+$var wire 1 i inst|78~2_combout $end
+$var wire 1 j inst|48~0_combout $end
+$var wire 1 k inst|78~3_combout $end
+$var wire 1 l M~input_o $end
+$var wire 1 m inst|77~0_combout $end
+$var wire 1 n inst|77~1_combout $end
+$var wire 1 o inst|82~0_combout $end
+$var wire 1 p inst|79~combout $end
+$var wire 1 q inst|83~0_combout $end
+$var wire 1 r inst|80~combout $end
+$var wire 1 s inst1|78~3_combout $end
+$var wire 1 t inst1|82~0_combout $end
+$var wire 1 u inst1|79~combout $end
+$var wire 1 v inst1|81~combout $end
+$var wire 1 w inst1|77~0_combout $end
+$var wire 1 x inst1|77~1_combout $end
+$var wire 1 y inst1|80~0_combout $end
+$var wire 1 z inst1|83~0_combout $end
+$var wire 1 { inst2~combout $end
+$var wire 1 | inst|81~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11000000 !
+b100 "
+0#
+0$
+b0 %
+0&
+1'
+1/
+0.
+0-
+0,
+0+
+0*
+1)
+1(
+00
+11
+x2
+13
+14
+15
+16
+07
+18
+19
+0:
+0;
+0<
+0=
+0>
+1?
+0@
+0A
+1B
+0C
+0D
+1E
+0F
+0G
+0H
+1I
+1J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+1T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+1`
+0a
+0b
+1c
+0d
+0e
+1f
+0g
+1h
+1i
+0j
+1k
+0l
+0m
+1n
+1o
+1p
+0q
+1r
+1s
+0t
+1u
+1v
+0w
+0x
+0y
+0z
+0{
+1|
+$end
+#25000
+1#
+1_
+1y
+0?
+0/
+#50000
+1$
+b1 %
+0#
+1l
+1G
+0_
+0y
+1w
+0u
+0r
+0p
+1m
+1g
+1t
+0o
+09
+1=
+1;
+1?
+0v
+0|
+1/
+1+
+1-
+0)
+1x
+0n
+0t
+0=
+08
+1<
+1:
+1>
+1.
+1*
+1,
+0(
+0-
+#75000
+1#
+1_
+#100000
+b11 %
+0$
+b10 %
+0#
+0G
+1H
+0l
+0_
+0g
+1a
+1^
+1W
+1S
+1R
+0w
+1u
+1r
+1p
+0m
+1t
+1o
+19
+1=
+0;
+1y
+0u
+0`
+0r
+0T
+1q
+1z
+0+
+1-
+1)
+0t
+1n
+18
+0=
+1;
+0?
+0z
+1v
+0s
+0f
+0/
+1+
+0-
+1(
+1{
+17
+0>
+0.
+1&
+1t
+1=
+1-
+#125000
+1#
+1_
+0y
+1u
+1`
+1?
+0v
+1s
+1f
+1/
+1>
+1z
+1.
+0t
+0=
+0z
+0-
+#150000
+1$
+b11 %
+0#
+1l
+1G
+0_
+1y
+1w
+0u
+1r
+0p
+1m
+1g
+0`
+1t
+0o
+09
+1=
+0;
+0?
+1v
+1|
+0q
+0s
+0f
+0/
+0+
+1-
+0)
+0x
+0{
+0n
+0t
+0=
+08
+07
+0<
+0:
+0>
+0h
+0.
+0*
+0,
+0&
+0(
+0-
+0i
+0k
+06
+0'
+#175000
+1#
+1_
+1`
+1s
+1f
+1h
+1i
+1k
+16
+1'
+#200000
+b111 %
+b101 %
+0$
+b100 %
+0#
+0G
+0H
+1C
+0l
+0_
+0g
+0a
+0^
+0W
+0S
+0R
+1j
+1D
+0w
+0r
+1p
+0m
+0`
+1t
+1o
+19
+1=
+1;
+0v
+0y
+1u
+1`
+1r
+1T
+1m
+1+
+1-
+1)
+0t
+0o
+0k
+06
+09
+0=
+0;
+1?
+1>
+1v
+1.
+1/
+0+
+0-
+0)
+0'
+1n
+18
+0>
+0.
+1(
+#225000
+1#
+1_
+1y
+0?
+0/
+#250000
+1$
+b101 %
+0#
+1l
+1G
+0_
+0y
+1w
+0u
+0r
+0p
+1g
+1t
+1o
+19
+1=
+1;
+1?
+0v
+0|
+1q
+1/
+1+
+1-
+1)
+1x
+0t
+0=
+1<
+1:
+1>
+1.
+1*
+1,
+0-
+1{
+17
+1&
+#275000
+1#
+1_
+#300000
+b111 %
+0$
+b110 %
+0#
+0G
+1H
+0l
+0_
+0g
+1a
+1^
+1W
+1S
+1R
+0w
+1u
+1r
+1p
+1t
+0o
+09
+1=
+0;
+1y
+0u
+0`
+0r
+0T
+0q
+1z
+0+
+1-
+0)
+0t
+0{
+07
+0=
+1;
+0?
+0z
+1v
+0s
+0f
+0/
+1+
+0-
+0&
+1{
+17
+0>
+0.
+1&
+0{
+1t
+1=
+07
+0&
+1-
+#325000
+1#
+1_
+0y
+1u
+1`
+1?
+0v
+1s
+1f
+1/
+1>
+1z
+1.
+0t
+0=
+0z
+0-
+1{
+17
+1&
+0{
+07
+0&
+#350000
+1$
+b111 %
+0#
+1l
+1G
+0_
+1y
+1w
+0u
+1r
+0p
+1g
+0`
+1t
+1o
+19
+1=
+0;
+0?
+1v
+1|
+0s
+0f
+0/
+0+
+1-
+1)
+0x
+0t
+0=
+0<
+0:
+0>
+0h
+0.
+0*
+0,
+0-
+0i
+#375000
+1#
+1_
+1`
+1s
+1f
+1h
+1i
+#400000
+b1111 %
+b1011 %
+b1001 %
+0$
+b1000 %
+0#
+0G
+0H
+0C
+1@
+0l
+0_
+0g
+0a
+0^
+0W
+0S
+0R
+0j
+0D
+0w
+0r
+1p
+0`
+1t
+0o
+09
+1=
+1;
+0v
+0y
+1u
+1`
+1r
+1T
+0m
+1+
+1-
+0)
+0t
+1o
+1k
+0n
+08
+16
+19
+0=
+0;
+1?
+1>
+1v
+1.
+1/
+0+
+0-
+1)
+1'
+0(
+1n
+18
+0>
+0.
+1(
+#425000
+1#
+1_
+1y
+0?
+0/
+#450000
+1$
+b1001 %
+0#
+1l
+1G
+0_
+0y
+1w
+0u
+0r
+0p
+1m
+1g
+1t
+0o
+09
+1=
+1;
+1?
+0v
+0|
+1/
+1+
+1-
+0)
+1x
+0n
+0t
+0=
+08
+1<
+1:
+1>
+1.
+1*
+1,
+0(
+0-
+#475000
+1#
+1_
+#500000
+b1011 %
+0$
+b1010 %
+0#
+0G
+1H
+0l
+0_
+0g
+1a
+1^
+1W
+1S
+1R
+0w
+1u
+1r
+1p
+0m
+1t
+1o
+19
+1=
+0;
+1y
+0u
+0`
+0r
+0T
+1q
+1z
+0+
+1-
+1)
+0t
+1n
+18
+0=
+1;
+0?
+0z
+1v
+0s
+0f
+0/
+1+
+0-
+1(
+1{
+17
+0>
+0.
+1&
+1t
+1=
+1-
+#525000
+1#
+1_
+0y
+1u
+1`
+1?
+0v
+1s
+1f
+1/
+1>
+1z
+1.
+0t
+0=
+0z
+0-
+#550000
+1$
+b1011 %
+0#
+1l
+1G
+0_
+1y
+1w
+0u
+1r
+0p
+1m
+1g
+0`
+1t
+0o
+09
+1=
+0;
+0?
+1v
+1|
+0q
+0s
+0f
+0/
+0+
+1-
+0)
+0x
+0{
+0n
+0t
+0=
+08
+07
+0<
+0:
+0>
+0h
+0.
+0*
+0,
+0&
+0(
+0-
+0i
+0k
+06
+0'
+#575000
+1#
+1_
+1`
+1s
+1f
+1h
+1i
+1k
+16
+1'
+#600000
+b1111 %
+b1101 %
+0$
+b1100 %
+0#
+0G
+0H
+1C
+0l
+0_
+0g
+0a
+0^
+0W
+0S
+0R
+1j
+1D
+0w
+0r
+1p
+0m
+0`
+1t
+1o
+19
+1=
+1;
+0v
+0y
+1u
+1`
+1r
+1T
+1m
+1+
+1-
+1)
+0t
+0o
+0k
+06
+09
+0=
+0;
+1?
+1>
+1v
+1.
+1/
+0+
+0-
+0)
+0'
+1n
+18
+0>
+0.
+1(
+#625000
+1#
+1_
+1y
+0?
+0/
+#650000
+1$
+b1101 %
+0#
+1l
+1G
+0_
+0y
+1w
+0u
+0r
+0p
+1g
+1t
+1o
+19
+1=
+1;
+1?
+0v
+0|
+1q
+1/
+1+
+1-
+1)
+1x
+0t
+0=
+1<
+1:
+1>
+1.
+1*
+1,
+0-
+1{
+17
+1&
+#675000
+1#
+1_
+#700000
+b1111 %
+0$
+b1110 %
+0#
+0G
+1H
+0l
+0_
+0g
+1a
+1^
+1W
+1S
+1R
+0w
+1u
+1r
+1p
+1t
+0o
+09
+1=
+0;
+1y
+0u
+0`
+0r
+0T
+0q
+1z
+0+
+1-
+0)
+0t
+0{
+07
+0=
+1;
+0?
+0z
+1v
+0s
+0f
+0/
+1+
+0-
+0&
+1{
+17
+0>
+0.
+1&
+0{
+1t
+1=
+07
+0&
+1-
+#725000
+1#
+1_
+0y
+1u
+1`
+1?
+0v
+1s
+1f
+1/
+1>
+1z
+1.
+0t
+0=
+0z
+0-
+1{
+17
+1&
+0{
+07
+0&
+#750000
+1$
+b1111 %
+0#
+1l
+1G
+0_
+1y
+1w
+0u
+1r
+0p
+1g
+0`
+1t
+1o
+19
+1=
+0;
+0?
+1v
+1|
+0s
+0f
+0/
+0+
+1-
+1)
+0x
+0t
+0=
+0<
+0:
+0>
+0h
+0.
+0*
+0,
+0-
+0i
+#775000
+1#
+1_
+1`
+1s
+1f
+1h
+1i
+#800000
+b111 %
+b11 %
+b1 %
+0$
+b0 %
+0#
+0G
+0H
+0C
+0@
+0l
+0_
+0g
+0a
+0^
+0W
+0S
+0R
+0j
+0D
+0w
+0r
+1p
+0`
+1t
+0o
+09
+1=
+1;
+0v
+0y
+1u
+1`
+1r
+1T
+0m
+1+
+1-
+0)
+0t
+1o
+1k
+0n
+08
+16
+19
+0=
+0;
+1?
+1>
+1v
+1.
+1/
+0+
+0-
+1)
+1'
+0(
+1n
+18
+0>
+0.
+1(
+#825000
+1#
+1_
+1y
+0?
+0/
+#850000
+1$
+0#
+1l
+0_
+0y
+1w
+0u
+0r
+0p
+1m
+1t
+0o
+09
+1=
+1;
+1?
+0v
+0|
+1/
+1+
+1-
+0)
+1x
+0n
+08
+1<
+1:
+1>
+1z
+1.
+1*
+1,
+0(
+1{
+17
+1&
+#875000
+1#
+1_
+#900000
+0$
+0#
+0l
+0_
+0w
+1u
+1r
+1p
+0m
+0t
+1o
+19
+0=
+0;
+1v
+1|
+0z
+0+
+0-
+1)
+0x
+1n
+18
+0<
+0:
+0>
+0.
+0*
+0,
+1(
+0{
+07
+0&
+#925000
+1#
+1_
+1y
+0?
+0/
+#950000
+1$
+0#
+1l
+0_
+0y
+1w
+0u
+0r
+0p
+1m
+1t
+0o
+09
+1=
+1;
+1?
+0v
+0|
+1/
+1+
+1-
+0)
+1x
+0n
+08
+1<
+1:
+1>
+1z
+1.
+1*
+1,
+0(
+1{
+17
+1&
+#975000
+1#
+1_
+#1000000

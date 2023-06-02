@@ -1,0 +1,111 @@
+m255
+K3
+z0
+13
+cModel Technology
+dD:\ComputerLabs\SHEFT\simulation\qsim
+vhard_block
+Z0 !s110 1669028826
+!i10b 1
+!s100 CmPebLh::_Bf7`EUMPA0`2
+I;h[i4F]:K_LGdILkfi`Lm0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/HardWare/CH7/SHEFT/simulation/qsim
+Z3 w1669028825
+Z4 8SHEFT.vo
+Z5 FSHEFT.vo
+L0 1159
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1669028826.000000
+Z8 !s107 SHEFT.vo|
+Z9 !s90 -work|work|SHEFT.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vSHEFT
+R0
+!i10b 1
+!s100 g[aKlEXQHoR@BLkFkz]A90
+IO278Eo;P[CJfJ3N=QdOlW0
+R1
+R2
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@s@h@e@f@t
+vSHEFT_vlg_check_tst
+!i10b 1
+!s100 ><W=JSkKI0RFi:4V0kaKk0
+IOTdjX?F7dI;aCFFg?Mze00
+VK61P_ZoT<_5ZU?U8n<J7F2
+Z12 dE:\homework\SHEFT\simulation\qsim
+Z13 w1637675664
+Z14 8SHEFT.vwf.vt
+Z15 FSHEFT.vwf.vt
+L0 65
+Z16 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z17 !s108 1637675666.385000
+Z18 !s107 SHEFT.vwf.vt|
+Z19 !s90 -work|work|SHEFT.vwf.vt|
+!s101 -O0
+Z20 o-work work -O0
+n@s@h@e@f@t_vlg_check_tst
+vSHEFT_vlg_sample_tst
+!i10b 1
+!s100 HV?Xf<eZ>d7aYm5dH50DP1
+IH^QfX1d==AjR]fSN_k5<X0
+VjWA0B]eJMK[5C3hRof_c30
+R12
+R13
+R14
+R15
+Z21 L0 29
+R16
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R20
+n@s@h@e@f@t_vlg_sample_tst
+vSHEFT_vlg_vec_tst
+!s110 1669028827
+!i10b 1
+!s100 dQzz1GRaiCiW^70cLO]Sk2
+I4iPCTQNR_a`NGG[bkC]b=3
+R1
+R2
+w1669028824
+R14
+R15
+R21
+R6
+r1
+!s85 0
+31
+!s108 1669028827.000000
+R18
+R19
+!i113 1
+R10
+R11
+n@s@h@e@f@t_vlg_vec_tst

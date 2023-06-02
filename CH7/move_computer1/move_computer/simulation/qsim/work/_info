@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\homework\forth\move_computer\simulation\qsim
+vmove_computer1119
+Z1 ITi;Ue7_MJeb`GR]:kXh_b2
+Z2 VW>0OFh4HhR?R=MZ>?LPb63
+Z3 dE:\homework\forth\move_computer\simulation\qsim
+Z4 w1637741397
+Z5 8move_computer1119.vo
+Z6 Fmove_computer1119.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|move_computer1119.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 >dm9LPXKP>Ib1maQlk2IO3
+!s85 0
+Z11 !s108 1637741400.287000
+Z12 !s107 move_computer1119.vo|
+!s101 -O0
+vmove_computer1119_vlg_check_tst
+!i10b 1
+Z13 !s100 FO:ZLmi>LbYMiYZjMT6nE1
+Z14 IK6<Q<=2>;4LB9E[SbnJfh1
+Z15 VF`Ia6[RaBXK6z_>S:fPG;0
+R3
+Z16 w1637741392
+Z17 8Waveformmove_computer1119.vwf.vt
+Z18 FWaveformmove_computer1119.vwf.vt
+L0 67
+R7
+r1
+!s85 0
+31
+Z19 !s108 1637741400.603000
+Z20 !s107 Waveformmove_computer1119.vwf.vt|
+Z21 !s90 -work|work|Waveformmove_computer1119.vwf.vt|
+!s101 -O0
+R9
+vmove_computer1119_vlg_sample_tst
+!i10b 1
+Z22 !s100 HSzaPXd9?LFC0UB<KeLzT1
+Z23 I;i<4:LR0gN_^jVaG3?]Pl1
+Z24 V?K8JgjZbCzbVz4QozC_AX1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vmove_computer1119_vlg_vec_tst
+!i10b 1
+Z25 !s100 >Mg2X9CM6e3C1hQADc^^F0
+Z26 I=ab^dS=DUVYGLHooA<nF]2
+Z27 V_S<PV4IEk:<7J5XgR7R?m0
+R3
+R16
+R17
+R18
+Z28 L0 1537
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 21 15:08:47 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : move_computer1119
+Top-level Entity Name : move_computer1119
+Family : Cyclone IV E
+Total logic elements : 270
+    Total combinational functions : 217
+    Dedicated logic registers : 92
+Total registers : 92
+Total pins : 89
+Total virtual pins : 0
+Total memory bits : 3,584
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

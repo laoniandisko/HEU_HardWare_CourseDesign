@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/HardWare/CH2/counter0317/simulation/qsim
+vcounter0317
+Z1 !s110 1670208590
+!i10b 1
+!s100 cM:56Nl>F^Q`ZV^`Ughl23
+IV`;UHYBaRK?;9[]`6zVQc3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1670208590
+Z4 8counter0317.vo
+Z5 Fcounter0317.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1670208590.000000
+Z8 !s107 counter0317.vo|
+Z9 !s90 -work|work|counter0317.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcounter0317_vlg_vec_tst
+!s110 1670208591
+!i10b 1
+!s100 XHXD_8n02jEVX61X6]DnJ2
+IgQ?E?@J`_e7_E0lAlRdKP1
+R2
+R0
+w1670208588
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+!s108 1670208591.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 a?7C7T<6HGeWN@VBf92760
+IibVE`3`<PK;T>e_m58?kH1
+R2
+R0
+R3
+R4
+R5
+L0 1274
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

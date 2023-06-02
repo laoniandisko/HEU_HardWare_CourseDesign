@@ -1,0 +1,257 @@
+$comment
+	File created using the following command:
+		vcd file decoder24.msim.vcd -direction
+$end
+$date
+	Sun Dec 04 21:53:53 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module decoder24_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var wire 1 # F [3] $end
+$var wire 1 $ F [2] $end
+$var wire 1 % F [1] $end
+$var wire 1 & F [0] $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - F[3]~output_o $end
+$var wire 1 . F[2]~output_o $end
+$var wire 1 / F[1]~output_o $end
+$var wire 1 0 F[0]~output_o $end
+$var wire 1 1 A~input_o $end
+$var wire 1 2 B~input_o $end
+$var wire 1 3 inst2~0_combout $end
+$var wire 1 4 inst2~1_combout $end
+$var wire 1 5 inst2~2_combout $end
+$var wire 1 6 inst3~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1&
+0%
+0$
+0#
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+0.
+0/
+10
+01
+02
+03
+04
+05
+06
+$end
+#50000
+1"
+12
+16
+14
+1.
+00
+0&
+1$
+#100000
+1!
+0"
+11
+02
+15
+04
+0.
+1/
+1%
+0$
+#150000
+1"
+12
+05
+13
+1-
+0/
+0%
+1#
+#200000
+0!
+0"
+01
+02
+06
+03
+0-
+10
+1&
+0#
+#250000
+1"
+12
+16
+14
+1.
+00
+0&
+1$
+#300000
+1!
+0"
+11
+02
+15
+04
+0.
+1/
+1%
+0$
+#350000
+1"
+12
+05
+13
+1-
+0/
+0%
+1#
+#400000
+0!
+0"
+01
+02
+06
+03
+0-
+10
+1&
+0#
+#450000
+1"
+12
+16
+14
+1.
+00
+0&
+1$
+#500000
+1!
+0"
+11
+02
+15
+04
+0.
+1/
+1%
+0$
+#550000
+1"
+12
+05
+13
+1-
+0/
+0%
+1#
+#600000
+0!
+0"
+01
+02
+06
+03
+0-
+10
+1&
+0#
+#650000
+1"
+12
+16
+14
+1.
+00
+0&
+1$
+#700000
+1!
+0"
+11
+02
+15
+04
+0.
+1/
+1%
+0$
+#750000
+1"
+12
+05
+13
+1-
+0/
+0%
+1#
+#800000
+0!
+0"
+01
+02
+06
+03
+0-
+10
+1&
+0#
+#850000
+1"
+12
+16
+14
+1.
+00
+0&
+1$
+#900000
+1!
+0"
+11
+02
+15
+04
+0.
+1/
+1%
+0$
+#950000
+1"
+12
+05
+13
+1-
+0/
+0%
+1#
+#1000000

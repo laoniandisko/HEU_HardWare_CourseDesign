@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/intelFPGA_lite/17.1/ALU/simulation/qsim
+vALU
+Z0 !s110 1669020007
+!i10b 1
+!s100 9688GZzA3T?YNXhAJDTW@1
+Ii^d_FUFQlL;df7SGNkITR2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/HardWare/CH3/ALU/simulation/qsim
+Z3 w1669020006
+Z4 8ALU.vo
+Z5 FALU.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1669020007.000000
+Z8 !s107 ALU.vo|
+Z9 !s90 -work|work|ALU.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@a@l@u
+vALU_vlg_vec_tst
+R0
+!i10b 1
+!s100 R^DXV7^UbAO2CPWl`n>Nk1
+IUcSL]SVN4UK>:z``264L33
+R1
+R2
+w1669020005
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@a@l@u_vlg_vec_tst
+vhard_block
+R0
+!i10b 1
+!s100 N=?fLeaR9Wa063Y;3A6=03
+Ie=G>SIJ2mlDPPC3`MGP=_3
+R1
+R2
+R3
+R4
+R5
+L0 1208
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

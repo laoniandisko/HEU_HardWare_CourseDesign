@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/intelFPGA_lite/17.1/PC_AR_RAM/simulation/qsim
+vhard_block
+Z0 !s110 1667275050
+!i10b 1
+!s100 fBiB5SX2n2H3a1fJZB7983
+IaS4Ai=d@K>m4I8P:zWod@3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/HardWare/CH5/PC_AR_RAM/simulation/qsim
+Z3 w1667275049
+Z4 8PC_AR_RAM.vo
+Z5 FPC_AR_RAM.vo
+L0 1850
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1667275050.000000
+Z8 !s107 PC_AR_RAM.vo|
+Z9 !s90 -work|work|PC_AR_RAM.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vPC_AR_RAM
+R0
+!i10b 1
+!s100 o[V]gBK4QWTazKdeceGl22
+IzMA]mCC]ZVZI[7?FEg^FT0
+R1
+R2
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@p@c_@a@r_@r@a@m
+vPC_AR_RAM_vlg_vec_tst
+R0
+!i10b 1
+!s100 l>Z^@P^R2CzVQEX8f^>WR0
+I@zBCKXVIOPSlD6Z2m^:2A1
+R1
+R2
+w1667275048
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R10
+R11
+n@p@c_@a@r_@r@a@m_vlg_vec_tst

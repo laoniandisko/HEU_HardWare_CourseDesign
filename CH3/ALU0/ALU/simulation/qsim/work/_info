@@ -1,0 +1,187 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/intelFPGA_lite/17.1/ALU/simulation/qsim
+vALU
+Z0 !s110 1669019198
+!i10b 1
+!s100 9688GZzA3T?YNXhAJDTW@1
+Ii^d_FUFQlL;df7SGNkITR2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/HardWare/CH3/ALU0/ALU/simulation/qsim
+w1669019197
+8ALU.vo
+FALU.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1669019198.000000
+!s107 ALU.vo|
+!s90 -work|work|ALU.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+Ealu
+Z7 w1670215831
+Z8 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z9 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z10 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z13 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R2
+Z14 8ALU.vho
+Z15 FALU.vho
+l0
+L77
+VNI]aRSEmQm]OC9gB3k]g02
+!s100 5=I4>;E?zf=YF?SUoB:l03
+Z16 OV;C;10.5b;63
+32
+Z17 !s110 1670215832
+!i10b 1
+Z18 !s108 1670215832.000000
+Z19 !s90 -work|work|ALU.vho|
+Z20 !s107 ALU.vho|
+!i113 1
+R5
+Z21 tExplicit 1 CvgOpt 0
+Astructure
+R8
+R9
+R10
+R11
+R12
+R13
+DEx4 work 3 alu 0 22 NI]aRSEmQm]OC9gB3k]g02
+l226
+L125
+VmSgfDF7;<DL0POe:o7kBj2
+!s100 4=zYNb1@ZG[oRUno6lEFA0
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R5
+R21
+Ealu_vhd_vec_tst
+Z22 w1670215830
+R11
+R12
+R2
+Z23 8Waveform.vwf.vht
+Z24 FWaveform.vwf.vht
+l0
+L31
+VM9g^YfSDOcSm9VVBlhjI60
+!s100 e_jiJ7a9ecH56?Rk3`[>[2
+R16
+32
+R17
+!i10b 1
+R18
+Z25 !s90 -work|work|Waveform.vwf.vht|
+Z26 !s107 Waveform.vwf.vht|
+!i113 1
+R5
+R21
+Aalu_arch
+R11
+R12
+Z27 DEx4 work 15 alu_vhd_vec_tst 0 22 M9g^YfSDOcSm9VVBlhjI60
+l56
+L33
+V;z5eX9ef5DXTWDdWN@I5P3
+!s100 ]b1?I4z]]TiYd`@k1z;ca3
+R16
+32
+R17
+!i10b 1
+R18
+R25
+R26
+!i113 1
+R5
+R21
+vALU_vlg_vec_tst
+R0
+!i10b 1
+!s100 R@z:^XJCCSYI:5SJaQfdO1
+IVYc6ZJaHdhfX3zn[o2z0V1
+R1
+R2
+w1669019196
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6
+n@a@l@u_vlg_vec_tst
+Ehard_block
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R2
+R14
+R15
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R5
+R21
+Astructure
+R8
+R9
+R10
+R11
+R12
+R13
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R5
+R21

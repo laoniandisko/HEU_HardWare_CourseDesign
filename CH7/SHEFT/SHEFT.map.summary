@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 21 18:33:57 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : SHEFT
+Top-level Entity Name : SHEFT
+Family : Cyclone IV E
+Total logic elements : 30
+    Total combinational functions : 30
+    Dedicated logic registers : 9
+Total registers : 9
+Total pins : 22
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

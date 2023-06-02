@@ -1,0 +1,42 @@
+# do BUS0708.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:50 on Oct 25,2022
+# vlog -work work BUS0708.vo 
+# -- Compiling module BUS0708
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	BUS0708
+# End time: 10:58:50 on Oct 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:58:50 on Oct 25,2022
+# vlog -work work Waveform4.vwf.vt 
+# -- Compiling module BUS0708_vlg_vec_tst
+# 
+# Top level modules:
+# 	BUS0708_vlg_vec_tst
+# End time: 10:58:50 on Oct 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.BUS0708_vlg_vec_tst 
+# Start time: 10:58:50 on Oct 25,2022
+# Loading work.BUS0708_vlg_vec_tst
+# Loading work.BUS0708
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#26
+# ** Note: $finish    : Waveform4.vwf.vt(58)
+#    Time: 1 us  Iteration: 0  Instance: /BUS0708_vlg_vec_tst
+# End time: 10:58:51 on Oct 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

@@ -1,0 +1,84 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "10/23/2022 23:03:15"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Timing
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Timing_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CLk1;
+reg RST1;
+reg S0;
+// wires                                               
+wire T1;
+wire T2;
+wire T3;
+wire T4;
+
+// assign statements (if any)                          
+Timing i1 (
+// port map - connection between master ports and signals/registers   
+	.CLk1(CLk1),
+	.RST1(RST1),
+	.S0(S0),
+	.T1(T1),
+	.T2(T2),
+	.T3(T3),
+	.T4(T4)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CLk1
+initial
+begin
+	repeat(66)
+	begin
+		CLk1 = 1'b0;
+		CLk1 = #7500 1'b1;
+		# 7500;
+	end
+	CLk1 = 1'b0;
+	CLk1 = #7500 1'b1;
+end 
+
+// RST1
+initial
+begin
+	RST1 = 1'b0;
+	RST1 = #20000 1'b1;
+	RST1 = #40000 1'b0;
+end 
+
+// S0
+initial
+begin
+	S0 = 1'b1;
+end 
+endmodule
+

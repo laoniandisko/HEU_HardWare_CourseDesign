@@ -1,0 +1,269 @@
+--REG8[7] is REG8[7]
+--operation mode is normal
+
+REG8[7]_lut_out = D[7] & (A1L33 # S[0]) # !D[7] & A1L33 & !S[0];
+REG8[7]_sload_eqn = (!S[1] & A1L43) # (S[1] & REG8[7]_lut_out);
+REG8[7] = DFFEA(REG8[7]_sload_eqn, CLK, VCC, , , , );
+
+
+--REG8[6] is REG8[6]
+--operation mode is normal
+
+REG8[6]_lut_out = D[6] & (A1L43 # S[0]) # !D[6] & A1L43 & !S[0];
+REG8[6]_sload_eqn = (!S[1] & A1L53) # (S[1] & REG8[6]_lut_out);
+REG8[6] = DFFEA(REG8[6]_sload_eqn, CLK, VCC, , , , );
+
+
+--REG8[5] is REG8[5]
+--operation mode is normal
+
+REG8[5]_lut_out = D[5] & (A1L53 # S[0]) # !D[5] & A1L53 & !S[0];
+REG8[5]_sload_eqn = (!S[1] & A1L63) # (S[1] & REG8[5]_lut_out);
+REG8[5] = DFFEA(REG8[5]_sload_eqn, CLK, VCC, , , , );
+
+
+--REG8[4] is REG8[4]
+--operation mode is normal
+
+REG8[4]_lut_out = D[4] & (A1L63 # S[0]) # !D[4] & A1L63 & !S[0];
+REG8[4]_sload_eqn = (!S[1] & A1L73) # (S[1] & REG8[4]_lut_out);
+REG8[4] = DFFEA(REG8[4]_sload_eqn, CLK, VCC, , , , );
+
+
+--REG8[3] is REG8[3]
+--operation mode is normal
+
+REG8[3]_lut_out = D[3] & (A1L73 # S[0]) # !D[3] & A1L73 & !S[0];
+REG8[3]_sload_eqn = (!S[1] & A1L83) # (S[1] & REG8[3]_lut_out);
+REG8[3] = DFFEA(REG8[3]_sload_eqn, CLK, VCC, , , , );
+
+
+--REG8[2] is REG8[2]
+--operation mode is normal
+
+REG8[2]_lut_out = D[2] & (A1L83 # S[0]) # !D[2] & A1L83 & !S[0];
+REG8[2]_sload_eqn = (!S[1] & A1L93) # (S[1] & REG8[2]_lut_out);
+REG8[2] = DFFEA(REG8[2]_sload_eqn, CLK, VCC, , , , );
+
+
+--REG8[1] is REG8[1]
+--operation mode is normal
+
+REG8[1]_lut_out = D[1] & (A1L93 # S[0]) # !D[1] & A1L93 & !S[0];
+REG8[1]_sload_eqn = (!S[1] & A1L04) # (S[1] & REG8[1]_lut_out);
+REG8[1] = DFFEA(REG8[1]_sload_eqn, CLK, VCC, , , , );
+
+
+--REG8[0] is REG8[0]
+--operation mode is normal
+
+REG8[0]_lut_out = D[0] & (A1L04 # S[0]) # !D[0] & A1L04 & !S[0];
+REG8[0]_sload_eqn = (!S[1] & A1L24) # (S[1] & REG8[0]_lut_out);
+REG8[0] = DFFEA(REG8[0]_sload_eqn, CLK, VCC, , , , );
+
+
+--REG8[8] is REG8[8]
+--operation mode is normal
+
+REG8[8]_lut_out = S[1] & (S[0] & A1L33 # !S[0] & A1L34) # !S[1] & A1L33;
+REG8[8] = DFFEA(REG8[8]_lut_out, CLK, VCC, , , , );
+
+
+--A1L33 is REG8~2171
+--operation mode is normal
+
+A1L33 = S[0] & (S[1] & REG8[8] # !S[1] & REG8[7]) # !S[0] & REG8[8];
+
+
+--A1L43 is REG8~2172
+--operation mode is normal
+
+A1L43 = S[0] & (S[1] & REG8[7] # !S[1] & REG8[6]) # !S[0] & REG8[7];
+
+
+--A1L53 is REG8~2173
+--operation mode is normal
+
+A1L53 = S[0] & (S[1] & REG8[6] # !S[1] & REG8[5]) # !S[0] & REG8[6];
+
+
+--A1L63 is REG8~2174
+--operation mode is normal
+
+A1L63 = S[0] & (S[1] & REG8[5] # !S[1] & REG8[4]) # !S[0] & REG8[5];
+
+
+--A1L73 is REG8~2175
+--operation mode is normal
+
+A1L73 = S[0] & (S[1] & REG8[4] # !S[1] & REG8[3]) # !S[0] & REG8[4];
+
+
+--A1L83 is REG8~2176
+--operation mode is normal
+
+A1L83 = S[0] & (S[1] & REG8[3] # !S[1] & REG8[2]) # !S[0] & REG8[3];
+
+
+--A1L93 is REG8~2177
+--operation mode is normal
+
+A1L93 = S[0] & (S[1] & REG8[2] # !S[1] & REG8[1]) # !S[0] & REG8[2];
+
+
+--A1L04 is REG8~2178
+--operation mode is normal
+
+A1L04 = S[0] & (S[1] & REG8[1] # !S[1] & REG8[0]) # !S[0] & REG8[1];
+
+
+--A1L14 is REG8~2179
+--operation mode is normal
+
+A1L14 = C0 & (REG8[8] # M) # !C0 & REG8[8] & !M;
+
+
+--A1L24 is REG8~2180
+--operation mode is normal
+
+A1L24 = S[0] & (S[1] & REG8[0] # !S[1] & A1L14) # !S[0] & REG8[0];
+
+
+--A1L34 is REG8~2181
+--operation mode is normal
+
+A1L34 = C0 & (REG8[0] # M) # !C0 & REG8[0] & !M;
+
+
+--CLK is CLK
+--operation mode is input
+
+CLK = INPUT();
+
+
+--D[7] is D[7]
+--operation mode is input
+
+D[7] = INPUT();
+
+
+--S[0] is S[0]
+--operation mode is input
+
+S[0] = INPUT();
+
+
+--S[1] is S[1]
+--operation mode is input
+
+S[1] = INPUT();
+
+
+--D[6] is D[6]
+--operation mode is input
+
+D[6] = INPUT();
+
+
+--D[5] is D[5]
+--operation mode is input
+
+D[5] = INPUT();
+
+
+--D[4] is D[4]
+--operation mode is input
+
+D[4] = INPUT();
+
+
+--D[3] is D[3]
+--operation mode is input
+
+D[3] = INPUT();
+
+
+--D[2] is D[2]
+--operation mode is input
+
+D[2] = INPUT();
+
+
+--D[1] is D[1]
+--operation mode is input
+
+D[1] = INPUT();
+
+
+--D[0] is D[0]
+--operation mode is input
+
+D[0] = INPUT();
+
+
+--C0 is C0
+--operation mode is input
+
+C0 = INPUT();
+
+
+--M is M
+--operation mode is input
+
+M = INPUT();
+
+
+--QB[7] is QB[7]
+--operation mode is output
+
+QB[7] = OUTPUT(REG8[7]);
+
+
+--QB[6] is QB[6]
+--operation mode is output
+
+QB[6] = OUTPUT(REG8[6]);
+
+
+--QB[5] is QB[5]
+--operation mode is output
+
+QB[5] = OUTPUT(REG8[5]);
+
+
+--QB[4] is QB[4]
+--operation mode is output
+
+QB[4] = OUTPUT(REG8[4]);
+
+
+--QB[3] is QB[3]
+--operation mode is output
+
+QB[3] = OUTPUT(REG8[3]);
+
+
+--QB[2] is QB[2]
+--operation mode is output
+
+QB[2] = OUTPUT(REG8[2]);
+
+
+--QB[1] is QB[1]
+--operation mode is output
+
+QB[1] = OUTPUT(REG8[1]);
+
+
+--QB[0] is QB[0]
+--operation mode is output
+
+QB[0] = OUTPUT(REG8[0]);
+
+
+--CN is CN
+--operation mode is output
+
+CN = OUTPUT(REG8[8]);
+
+

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Oct 25 11:25:25 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : BUS0708
+Top-level Entity Name : BUS0708
+Family : Cyclone IV E
+Total logic elements : 32
+    Total combinational functions : 16
+    Dedicated logic registers : 24
+Total registers : 24
+Total pins : 31
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

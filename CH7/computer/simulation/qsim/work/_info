@@ -1,0 +1,219 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 dE:\homework\forth\computer\simulation\qsim
+vcomputer0
+Z1 !s110 1669352362
+!i10b 1
+!s100 Sfe87_LRO]_nFDQHf<ib02
+IRPEe`eDNG5?CRhD73]@?a0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/HardWare/CH7/computer/simulation/qsim
+Z4 w1669352361
+Z5 8computer.vo
+Z6 Fcomputer.vo
+L0 31
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1669352362.000000
+Z9 !s107 computer.vo|
+Z10 !s90 -work|work|computer.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+Ecomputer0_vhd_vec_tst
+w1669093824
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R3
+8Waveformcomputer_.vwf.vht
+FWaveformcomputer_.vwf.vht
+l0
+L31
+VZo2JVzWM;<ez;Xl=a7IL43
+!s100 XH;<L40e9?P_N<nRj[QW00
+Z15 OV;C;10.5b;63
+32
+!s110 1669093826
+!i10b 1
+!s108 1669093826.000000
+!s90 -work|work|Waveformcomputer_.vwf.vht|
+!s107 Waveformcomputer_.vwf.vht|
+!i113 1
+R11
+Z16 tExplicit 1 CvgOpt 0
+vcomputer0_vlg_vec_tst
+R1
+!i10b 1
+!s100 h_maO6:G;0li=3F>KXhY]3
+IeP<N9GBfGf34QDMIPP]U13
+R2
+R3
+w1669352360
+8Waveformcomputer_.vwf.vt
+FWaveformcomputer_.vwf.vt
+Z17 L0 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveformcomputer_.vwf.vt|
+!s90 -work|work|Waveformcomputer_.vwf.vt|
+!i113 1
+R11
+R12
+Ecomputer1119
+Z18 w1667743511
+Z19 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z20 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+Z21 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z22 DPx6 altera 11 dffeas_pack 0 22 ?bDUB9Db2N8iCCALNL;CT3
+Z23 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R13
+R14
+Z24 DPx6 altera 28 altera_primitives_components 0 22 c]VUMXSEi8Z`KM1bem<:B3
+Z25 dE:/intelFPGA_lite/17.1/computer/simulation/qsim
+Z26 8computer1119.vho
+Z27 Fcomputer1119.vho
+l0
+L79
+VeaD84hB<8LY4iG;fz?R7J0
+!s100 _2Mbc[KLRcH0n7MKkzA`@0
+R15
+32
+Z28 !s110 1667743512
+!i10b 1
+Z29 !s108 1667743512.000000
+Z30 !s90 -work|work|computer1119.vho|
+Z31 !s107 computer1119.vho|
+!i113 1
+R11
+R16
+Astructure
+R19
+R20
+R21
+R22
+R23
+R13
+R14
+R24
+DEx4 work 12 computer1119 0 22 eaD84hB<8LY4iG;fz?R7J0
+l674
+L200
+V0NfA?Z8FU[NT4Z9lRCe120
+!s100 eemVjkH5[Nl`fATFbKcAz3
+R15
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R11
+R16
+Ecomputer1119_vhd_vec_tst
+w1667743510
+R13
+R14
+R25
+8Waveformcomputer1119.vwf.vht
+FWaveformcomputer1119.vwf.vht
+l0
+L31
+VoY<gGd?R:I3oWna;]=2U@2
+!s100 HKTMUdAH0kX46K?I5NIKF1
+R15
+32
+R28
+!i10b 1
+R29
+!s90 -work|work|Waveformcomputer1119.vwf.vht|
+!s107 Waveformcomputer1119.vwf.vht|
+!i113 1
+R11
+R16
+vcomputer1119_vlg_check_tst
+!i10b 1
+!s100 hnJBFzd<[b8jXk?hFXY7z2
+IcTJC1<TFGN[P;Kg8D]F4B0
+V34@Ik>a_9:_<8AAh]bX413
+R0
+Z32 w1638108267
+Z33 8Waveformcomputer1119.vwf.vt
+Z34 FWaveformcomputer1119.vwf.vt
+L0 67
+Z35 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z36 !s108 1638108269.842000
+Z37 !s107 Waveformcomputer1119.vwf.vt|
+Z38 !s90 -work|work|Waveformcomputer1119.vwf.vt|
+!s101 -O0
+Z39 o-work work -O0
+vcomputer1119_vlg_sample_tst
+!i10b 1
+!s100 Jgf1[T2d0[2^fGLC=PkQb0
+IGBDg5bF^O=2KEFCOe6RYc3
+VD^Bn`;TmR]21[RBZ7Kn[80
+R0
+R32
+R33
+R34
+R17
+R35
+r1
+!s85 0
+31
+R36
+R37
+R38
+!s101 -O0
+R39
+vcomputer1119_vlg_vec_tst
+!i10b 1
+!s100 <F75=nKAaE]m]QGXKfi1F1
+I7dSDE[J;88Jn=cTCP4;iU3
+Vi9elUz[KNnbil^lf3R:SF2
+R0
+R32
+R33
+R34
+L0 1720
+R35
+r1
+!s85 0
+31
+R36
+R37
+R38
+!s101 -O0
+R39
+vhard_block
+R1
+!i10b 1
+!s100 b`P1CY?>8EXnWicPd:l=32
+I1A_<2]GgfUdl[@;AI_o9W2
+R2
+R3
+R4
+R5
+R6
+L0 7596
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

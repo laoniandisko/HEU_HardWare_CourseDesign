@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/intelFPGA_lite/17.1/BUS/simulation/qsim
+vBUS
+Z0 !s110 1670218193
+!i10b 1
+!s100 ]S]RNdSQUUL29NzkCFm@43
+I6dTfOOlXlTE0f2jG:Tg;90
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/HardWare/CH4/BUS0/simulation/qsim
+Z3 w1670218192
+Z4 8BUS.vo
+Z5 FBUS.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1670218193.000000
+Z8 !s107 BUS.vo|
+Z9 !s90 -work|work|BUS.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@b@u@s
+vBUS_vlg_vec_tst
+R0
+!i10b 1
+!s100 2oGCe8`aGgnKIk0;JdFIG1
+IUJHbKI54a8[ZD2d^nI?dD1
+R1
+R2
+w1670218190
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+n@b@u@s_vlg_vec_tst
+vhard_block
+R0
+!i10b 1
+!s100 `WgjWiUB6f4[AU0>V0h_13
+IEU6=YBbKJjkjJ=Dc9Ij933
+R1
+R2
+R3
+R4
+R5
+L0 1851
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

@@ -1,0 +1,59 @@
+# do move_computer1119.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module move_computer1119
+# 
+# Top level modules:
+# 	move_computer1119
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module move_computer1119_vlg_sample_tst
+# -- Compiling module move_computer1119_vlg_check_tst
+# ** Warning: Waveformmove_computer1119.vwf.vt(1002): (vlog-2576) [BSOB] - Bit-select into 'M_expected_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1002): (vlog-2576) [BSOB] - Bit-select into 'M_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1002): (vlog-2576) [BSOB] - Bit-select into 'M_expected_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1003): (vlog-2576) [BSOB] - Bit-select into 'M_expected_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1003): (vlog-2576) [BSOB] - Bit-select into 'last_M_exp' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1012): (vlog-2576) [BSOB] - Bit-select into 'last_M_exp' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1012): (vlog-2576) [BSOB] - Bit-select into 'M_expected_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1444): (vlog-2576) [BSOB] - Bit-select into 'uaddr_expected_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1444): (vlog-2576) [BSOB] - Bit-select into 'uaddr_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1444): (vlog-2576) [BSOB] - Bit-select into 'uaddr_expected_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1445): (vlog-2576) [BSOB] - Bit-select into 'uaddr_expected_prev' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1445): (vlog-2576) [BSOB] - Bit-select into 'last_uaddr_exp' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1454): (vlog-2576) [BSOB] - Bit-select into 'last_uaddr_exp' is out of bounds.
+# 
+# ** Warning: Waveformmove_computer1119.vwf.vt(1454): (vlog-2576) [BSOB] - Bit-select into 'uaddr_expected_prev' is out of bounds.
+# 
+# -- Compiling module move_computer1119_vlg_vec_tst
+# 
+# Top level modules:
+# 	move_computer1119_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.move_computer1119_vlg_vec_tst 
+# Loading work.move_computer1119_vlg_vec_tst
+# Loading work.move_computer1119
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading work.move_computer1119_vlg_sample_tst
+# Loading work.move_computer1119_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# Simulation passed !
+# ** Note: $finish    : Waveformmove_computer1119.vwf.vt(1533)
+#    Time: 20 us  Iteration: 0  Instance: /move_computer1119_vlg_vec_tst/tb_out

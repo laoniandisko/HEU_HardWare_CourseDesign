@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/project/Computer2130/simulation/qsim
+vComputer0317
+Z0 !s110 1669351758
+!i10b 1
+!s100 Al5ib[X?oF7a[6lPc[HPS2
+IdR3cF<Lh1KS7E2VjH7njj0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/HardWare/CH7/Computer0317_MOVE/simulation/qsim
+Z3 w1669351757
+Z4 8Computer0317.vo
+Z5 FComputer0317.vo
+Z6 L0 31
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1669351758.000000
+Z9 !s107 Computer0317.vo|
+Z10 !s90 -work|work|Computer0317.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@computer0317
+vComputer0317_vlg_vec_tst
+R0
+!i10b 1
+!s100 mb^0dcF9_aX?TcEWko75e3
+Io]aRaEDUd<H7C5BNWDoSM2
+R1
+R2
+w1669351756
+Z13 8Waveform.vwf.vt
+Z14 FWaveform.vwf.vt
+Z15 L0 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+Z16 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@computer0317_vlg_vec_tst
+vComputer2130
+Z17 !s110 1669177032
+!i10b 1
+!s100 >P69B^HZ7gjh?NJg7DhGd1
+IS>zSLWhDV8YOE52`9g1HI1
+R1
+R2
+w1669177030
+8Computer2130.vo
+FComputer2130.vo
+R6
+R7
+r1
+!s85 0
+31
+Z18 !s108 1669177032.000000
+!s107 Computer2130.vo|
+!s90 -work|work|Computer2130.vo|
+!i113 1
+R11
+R12
+n@computer2130
+vComputer2130_vlg_vec_tst
+R17
+!i10b 1
+!s100 N=GnJRWfSDKhB3a0z]9<R1
+I5`Q1YKhFg87i4TF1=O3?S2
+R1
+R2
+w1669177029
+R13
+R14
+R15
+R7
+r1
+!s85 0
+31
+R18
+!s107 Waveform.vwf.vt|
+R16
+!i113 1
+R11
+R12
+n@computer2130_vlg_vec_tst
+vhard_block
+R0
+!i10b 1
+!s100 MNSHV<WoMPTIOZ22C@L@=3
+I=l[kAQH3>_kn=a72SXH9K1
+R1
+R2
+R3
+R4
+R5
+L0 8599
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

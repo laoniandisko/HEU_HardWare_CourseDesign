@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Nov 22 16:37:19 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : computer
+Top-level Entity Name : computer0
+Family : Cyclone IV E
+Device : EP4CE55F23C8
+Timing Models : Final
+Total logic elements : 214 / 55,856 ( < 1 % )
+    Total combinational functions : 178 / 55,856 ( < 1 % )
+    Dedicated logic registers : 83 / 55,856 ( < 1 % )
+Total registers : 83
+Total pins : 97 / 325 ( 30 % )
+Total virtual pins : 0
+Total memory bits : 3,584 / 2,396,160 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 308 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

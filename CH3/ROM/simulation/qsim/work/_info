@@ -1,0 +1,161 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/intelFPGA_lite/17.1/ROM/simulation/qsim
+vhard_block
+Z0 !s110 1670216983
+!i10b 1
+!s100 bHUo?L^?mUl<29YNe<mX;0
+IbJk?1g3QflKD1Wf=MH6OC0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/HardWare/CH3/ROM/simulation/qsim
+Z3 w1670216982
+Z4 8ROM.vo
+Z5 FROM.vo
+L0 648
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1670216983.000000
+Z8 !s107 ROM.vo|
+Z9 !s90 -work|work|ROM.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vROM
+R0
+!i10b 1
+!s100 a>m;oFe4;Y>AnW`3oVz1m0
+IDom=mTI2KQZ_N;>EHXodS3
+R1
+R2
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@r@o@m
+Erom
+Z12 w1669021386
+Z13 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z14 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z15 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z17 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z18 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R2
+Z19 8ROM.vho
+Z20 FROM.vho
+l0
+L77
+V86DKdH;h_T>9100_X2LbN1
+!s100 9zl4Yf?F@SU;hjWnbDd3V3
+Z21 OV;C;10.5b;63
+32
+Z22 !s110 1669021387
+!i10b 1
+Z23 !s108 1669021387.000000
+Z24 !s90 -work|work|ROM.vho|
+Z25 !s107 ROM.vho|
+!i113 1
+R10
+Z26 tExplicit 1 CvgOpt 0
+Astructure
+R13
+R14
+R15
+R16
+R17
+R18
+DEx4 work 3 rom 0 22 86DKdH;h_T>9100_X2LbN1
+l176
+L119
+Vcb:DCLZdZlaMR_NeTICAK0
+!s100 5gE4@b4Aahl>h;;b;QDWX3
+R21
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R10
+R26
+Erom_vhd_vec_tst
+Z27 w1669021385
+R16
+R17
+R2
+Z28 8Waveform.vwf.vht
+Z29 FWaveform.vwf.vht
+l0
+L31
+Vd0ab=enT3T>Jzom5ER_5Y0
+!s100 _XJF>KNXRN1a2>TZ1Lb_12
+R21
+32
+R22
+!i10b 1
+R23
+Z30 !s90 -work|work|Waveform.vwf.vht|
+Z31 !s107 Waveform.vwf.vht|
+!i113 1
+R10
+R26
+Arom_arch
+R16
+R17
+DEx4 work 15 rom_vhd_vec_tst 0 22 d0ab=enT3T>Jzom5ER_5Y0
+l46
+L33
+Vj<nfEIZaPlTMnB]Fe2JKo1
+!s100 TgaEHP=9Y`M62Imo4Me?71
+R21
+32
+R22
+!i10b 1
+R23
+R30
+R31
+!i113 1
+R10
+R26
+vROM_vlg_vec_tst
+R0
+!i10b 1
+!s100 RHIG:F1i;K>ZX2=e]HbJ73
+I__36Ji5N=J1A1;O=YKPRR3
+R1
+R2
+w1670216981
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@r@o@m_vlg_vec_tst

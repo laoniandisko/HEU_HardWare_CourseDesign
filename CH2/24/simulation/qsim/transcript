@@ -1,0 +1,20 @@
+# do 24.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:49:44 on Dec 04,2022
+# vlog -work work 24.vo 
+# -- Compiling module \24 
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	\24 
+# End time: 21:49:44 on Dec 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:49:44 on Dec 04,2022
+# vlog -work work Waveform2.vwf.vt 
+# ** Error: (vlog-13069) Waveform2.vwf.vt(29): near "24": syntax error, unexpected INTEGER NUMBER.
+# End time: 21:49:44 on Dec 04,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: f:/enviroment/quartus/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./24.do line 4
